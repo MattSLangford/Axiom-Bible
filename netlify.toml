@@ -1,0 +1,7 @@
+# Netlify configuration for Axiom Bible
+
+[[redirects]]
+  from = "/download"
+  to = "https://apps.apple.com/app/id6757453625"
+  status = 302
+  force = true
