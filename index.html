@@ -118,8 +118,25 @@
             width: auto;
         }
 
-        footer {
+        .support {
+            display: inline-block;
             margin-top: 80px;
+            padding: 10px 20px;
+            border: 1px solid #e8a0a0;
+            border-radius: 8px;
+            color: #888;
+            font-size: 0.875rem;
+            text-decoration: none;
+            transition: border-color 0.2s ease, color 0.2s ease;
+        }
+
+        .support:hover {
+            border-color: #e05555;
+            color: #1a1a1a;
+        }
+
+        footer {
+            margin-top: 24px;
             padding-top: 24px;
             border-top: 1px solid #eee;
             color: #888;
@@ -154,6 +171,8 @@
                 </a>
             </div>
         </div>
+
+        <a href="https://ko-fi.com/mattlangford#" class="support"><span style="color:#e05555">&#9829;</span> Support Axiom &mdash; Leave a tip</a>
 
         <footer>
             &copy; 2026 Axiom Bible &middot; <a href="https://mattlangford.com">Developer</a> &middot; <a href="https://x.com/mattslangford">X</a> &middot; <a href="https://mastodon.social/@mtt" rel="me">Mastodon</a> &middot; <a href="#" id="contact">Contact</a> &middot; <a href="privacy-policy.html">Privacy</a>
